@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "kittygram-final"
+version = "0.1.0"
+description = "Another Kittygram project, now featuring the Docker-GitHubActions approach."
+authors = ["Кирилл Кувшинов <k.koovshinov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.16"
+django = "3.2.3"
+djangorestframework = "3.12.4"
+djoser = "2.1.0"
+webcolors = "1.11.1"
+psycopg2-binary = "2.9.3"
+pillow = "9.0.0"
+pytest = "6.2.4"
+pytest-django = "4.4.0"
+pytest-pythonpath = "0.7.3"
+pyyaml = "6.0"
+
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "kittygram_backend.settings"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".git",
+    ".git-rewrite",
+    ".mypy_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "migrations"
+]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+ruff = "^0.1.9"
+flake8 = "^6.1.0"
+django-stubs = "^4.2.7"
+djangorestframework-stubs = "^3.14.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
