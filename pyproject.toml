@@ -18,7 +18,10 @@ pytest = "6.2.4"
 pytest-django = "4.4.0"
 pytest-pythonpath = "0.7.3"
 pyyaml = "6.0"
+python-dotenv = "^1.0.0"
 
+[tool.isort]
+profile = "black"
 
 [tool.mypy]
 plugins = ["mypy_django_plugin.main"]
@@ -51,6 +54,8 @@ ruff = "^0.1.9"
 flake8 = "^6.1.0"
 django-stubs = "^4.2.7"
 djangorestframework-stubs = "^3.14.5"
+black = "^23.12.1"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
