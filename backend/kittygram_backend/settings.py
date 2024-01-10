@@ -11,10 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY", "mySupaPassword")
 
+DEBUG = os.getenv("DEBUG", "WeHatesHobbitses").lower() == "true"
 
-DEBUG = True
-
-ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "localhost"]
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "Zilch").split()
 
 INSTALLED_APPS = [
     "django.contrib.admin",
