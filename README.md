@@ -2,7 +2,7 @@
 
 ## Description
 
-- This Django+Postgre+Docker learning project is based on YandexPracticum's template (inc. React) and serves for your favourite cats to be added and boasted of online.
+- This Django+Postgre+Docker for CI/CD learning project is based on YandexPracticum's template (inc. React) and serves for your favourite cats to be added and boasted of online.
 - The motivation behind is better learn this stack, except React which is a separate course with YaP, and include it in my resume portfolio for kickers.
 - If you're passionate about sharing your feline pet's pix online, please be my guest and waste no more time reading this stuff)).
 
