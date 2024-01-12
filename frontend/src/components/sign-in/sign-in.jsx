@@ -70,7 +70,7 @@ export const SignIn = ({ extraClass = "" }) => {
       <h1
         className={`text text_type_h1 text_color_primary mb-10 ${styles.title}`}
       >
-        Вход
+        Log in
       </h1>
       <p
         className={`text text_type_medium-20 text_color_input mb-20 ${styles.subtitle}`}
@@ -107,7 +107,7 @@ export const SignIn = ({ extraClass = "" }) => {
             to="/signup"
             className={`text text_type_medium-16 text_color_link ${styles.nav}`}
           >
-            Not registered yet? Register
+            Not registered yet? Sign up
           </NavLink>
         </div>
       </FormContainer>
