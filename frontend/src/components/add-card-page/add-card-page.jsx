@@ -41,9 +41,9 @@ export const AddCardPage = ({ extraClass = "" }) => {
 
   const handleResponse = (res) => {
     if (typeof res.name === "object") {
-      setErrorName("Поле с именем является обязательным");
+      setErrorName("Name is a required field");
     } else if (typeof res.birth_year === "object") {
-      setErrorAge("Поле с годом рождения является обязательным");
+      setErrorAge("Birth year is a required field");
     }
   };
 
@@ -87,12 +87,12 @@ export const AddCardPage = ({ extraClass = "" }) => {
           <img
             className={styles.img}
             src={addImgIcon}
-            alt="Добавить фото котика."
+            alt="Add a cat pic"
           />
           <p className="text text_type_medium-16 text_color_primary">
             {currentFileName
               ? currentFileName
-              : "Загрузите фото в фотрмате JPG"}
+              : "Upload pic as JPG"}
           </p>
         </label>
         <input
@@ -106,14 +106,14 @@ export const AddCardPage = ({ extraClass = "" }) => {
           onChange={onChangeInput}
           name="name"
           type="text"
-          placeholder="Имя кота"
+          placeholder="Cat's name"
           error={errorName}
         />
         <Input
           onChange={onChangeInput}
           name="birth_year"
           type="text"
-          placeholder="Год рождения"
+          placeholder="Birth year"
           error={errorAge}
         />
         <ColorsBox
@@ -126,7 +126,7 @@ export const AddCardPage = ({ extraClass = "" }) => {
         <Select card={card} setCard={setCard} />
         <ButtonForm
           extraClass={styles.submit_btn}
-          text="Сохранить"
+          text="Save"
           onClick={handleSubmit}
         />
         <ButtonSecondary

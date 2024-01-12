@@ -34,7 +34,7 @@ export const ColorsBox = ({
       <p
         className={`text text_type_medium-16 text_color_input ${styles.cat_color}`}
       >
-        Цвет кота: <span className="text_color_primary">{currentColor}</span>
+        Cat's colour: <span className="text_color_primary">{currentColor}</span>
       </p>
     </div>
   );

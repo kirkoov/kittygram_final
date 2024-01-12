@@ -12,7 +12,7 @@ export const ButtonSecondary = ({
       <img
         className={styles.icon}
         src={icon}
-        alt="Кнопка выхода из аккаунта."
+        alt="Log-out button"
       />
     </button>
   );

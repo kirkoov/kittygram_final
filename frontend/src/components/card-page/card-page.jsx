@@ -90,7 +90,7 @@ export const CardPage = ({ data, setData, extraClass = "" }) => {
           <img
             className={styles.img}
             src={data.image_url ?? defaultImg}
-            alt="Фото котика."
+            alt="Cat's pic"
           />
         </div>
         <ButtonSecondary
