@@ -4,8 +4,11 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+import django_stubs_ext
+
 
 load_dotenv()
+django_stubs_ext.monkeypatch()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
