@@ -20,6 +20,7 @@ pytest-pythonpath = "0.7.3"
 pyyaml = "6.0"
 python-dotenv = "^1.0.0"
 gunicorn = "20.1.0"
+django-stubs-ext = "^4.2.7"
 
 [tool.isort]
 profile = "black"
@@ -57,7 +58,6 @@ django-stubs = "^4.2.7"
 djangorestframework-stubs = "^3.14.5"
 black = "^23.12.1"
 webcolors-stubs = "^0.0.3"
-django-stubs-ext = "^4.2.7"
 
 [build-system]
 requires = ["poetry-core"]

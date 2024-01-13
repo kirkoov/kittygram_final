@@ -1409,4 +1409,4 @@ webcolors = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9.16"
-content-hash = "b58cdcd648a4dd8056d0c21466e761a99130685a5e648b3701fcc041eeb43b9c"
+content-hash = "a33dc535afa784fe74b2a4c9ae62a45ec399f399f4124465b84b88f040729f35"
