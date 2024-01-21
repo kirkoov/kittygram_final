@@ -70,7 +70,7 @@ export const SignIn = ({ extraClass = "" }) => {
       <h1
         className={`text text_type_h1 text_color_primary mb-10 ${styles.title}`}
       >
-        Log in
+        LogIn
       </h1>
       <p
         className={`text text_type_medium-20 text_color_input mb-20 ${styles.subtitle}`}
