@@ -3,6 +3,7 @@ import App from './app';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText('Log in');
+  cons perp = "Log in"
+  const linkElement = screen.getByText(perp);
   expect(linkElement).toBeInTheDocument();
 });
