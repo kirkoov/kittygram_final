@@ -46,7 +46,7 @@ export const Header = ({ setQueryPage, extraClass = "" }) => {
         <div className={styles.btns_box}>
           <ButtonHeader
             to="/cats/add"
-            text="Add a cat pic (<=3Mb)"
+            text="Add a cat pic <=1Mb"
             icon={plusIcon}
             isLogin={true}
           />
